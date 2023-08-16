@@ -3,9 +3,9 @@
 import { useState } from "react";
 
 export interface Program {
-    name: String,
-    menus: Array<String>,
-    appImage: String,
+    name: string,
+    menus: Array<string>,
+    appImage: string,
 }
 
 export default function Footer() {
